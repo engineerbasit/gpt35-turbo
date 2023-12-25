@@ -3,6 +3,7 @@ import asyncio
 import textwrap
 import time
 import streamlit as st
+import langchain
 from langchain.embeddings import AzureOpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
